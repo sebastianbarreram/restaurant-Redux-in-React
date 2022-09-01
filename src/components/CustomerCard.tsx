@@ -12,7 +12,7 @@ function CustomerCard({ id, name, food }: CustomerCardType) {
   const [customerFoodInput, setCustomerFoodInput] = useState("");
   const dispatch = useDispatch();
   return (
-    <div className="customer-food-card-container">
+    <div className="customer-food-card-container" key={id}>
       <h5>{name}</h5>
       <div className="customer-foods-container">
         <div className="customer-food">

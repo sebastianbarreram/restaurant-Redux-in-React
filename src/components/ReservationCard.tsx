@@ -12,7 +12,7 @@ interface ReservationCarTypes {
 export default function ReservationCard({ name, index }: ReservationCarTypes) {
   const dispatch = useDispatch();
   return (
-    <div
+    <div key={index}
       onClick={() => {
         dispatch(removeReservation(index));
         dispatch(
