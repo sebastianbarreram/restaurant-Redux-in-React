@@ -1,5 +1,5 @@
 # restaurant-Redux-in-React
-Utilizing Redux toolkit in React application
+Utilizing Redux toolkit in React application with TypeScript following this tutorial https://www.youtube.com/watch?v=jR4fagDcvrc&t=4144s&ab_channel=LaithAcademy
 
 # Getting Started with Create React App
 
